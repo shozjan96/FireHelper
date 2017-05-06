@@ -1,0 +1,256 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:2:1-78:12
+	package
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:4:5-81
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:4:22-78
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:27:5-29:36
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:6:19-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:8:5-64
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:8:22-62
+uses-library#com.google.android.maps
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:9:5-59
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:9:19-57
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Simek\.android\build-cache\c13ca51903fe8b7c7d9df7a7a016ca8c6d3e6e81\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:19:5-66
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Simek\.android\build-cache\c13ca51903fe8b7c7d9df7a7a016ca8c6d3e6e81\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:20:5-78
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:13:5-81
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:14:22-95
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:18:5-76
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:18:22-73
+application
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:21:5-76:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] C:\Users\Simek\.android\build-cache\a416227cc13ae622977a0a9b11ebcfb1b9ba25ef\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Simek\.android\build-cache\c13ca51903fe8b7c7d9df7a7a016ca8c6d3e6e81\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Simek\.android\build-cache\a8d4641cf257031d37b9653847b915960bce38d8\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Simek\.android\build-cache\03ba4d21d3ce42cf6d580771e124b72e3e9f0e9d\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Simek\.android\build-cache\afdd80ebf88dcdc3698de09eabb57798f5adfd4d\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Simek\.android\build-cache\fba53bf6021128c0206d3f2d03ea90e6c1b67f34\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Simek\.android\build-cache\ab903e6c8a6b772eb6006310f8bb624c1f8b0b3f\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.karumi:dexter:4.1.0] C:\Users\Simek\.android\build-cache\2c39cfdc840d216da176127b0f9fd2b6c62d937a\output\AndroidManifest.xml:26:5-31:19
+MERGED from [com.android.support:design:25.2.0] C:\Users\Simek\.android\build-cache\fe28e652ff1fd47f11986dce104bdc84f45152b3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Simek\.android\build-cache\09def301f69b1a0dd6ca59a991630ffad8618b61\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Simek\.android\build-cache\991da8d61f0c53a7ec3eaa5b7cf0670e1f6f9755\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Simek\.android\build-cache\cef2e655c72c77772b587e5d9988bc71ceae6370\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Simek\.android\build-cache\0da6dca7f348faf6fa976f9c0da74ee795bbc209\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Simek\.android\build-cache\db23f0fcaef1cd5d25980593f15cf459bbec720a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Simek\.android\build-cache\18314aabd828dd78cdeac1c18703f5ee52aed8b5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Simek\.android\build-cache\45cee10f819b1452943f27992216c1d349f98f6c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Simek\.android\build-cache\e2de2c7be97148b1c2792e400ecd02faa0567d92\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Simek\.android\build-cache\72d106d8063cc4f6ff7a1043976300b347ff618e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Simek\.android\build-cache\ff7d2c68fb7ee667245548a234b59726c5981520\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:25:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:26:9-35
+	android:allowBackup
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:23:9-35
+	android:icon
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:24:9-38
+	android:theme
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:22:9-37
+activity#com.example.simek.firehelper.ActivityMenu
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:29:9-36:20
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:30:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:34:27-74
+activity#com.example.simek.firehelper.ActivityMain
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:38:9-43:20
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:39:13-41
+intent-filter#android.intent.action.MAIN
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:40:13-42:29
+activity#com.example.simek.firehelper.ActivityAddFire
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:46:13-44
+activity#com.example.simek.firehelper.ActivityLogin
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:53:9-59:20
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:54:13-42
+activity#com.example.simek.firehelper.ActivityLocationFire
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:61:9-65:16
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:61:19-55
+service#com.example.simek.firehelper.GpsMy
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:66:9-70:15
+	android:exported
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:69:13-37
+	android:stopWithTask
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:68:13-40
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:67:13-34
+activity#com.example.simek.firehelper.ActivityMap
+ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:73:9-74:50
+	android:launchMode
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:74:13-48
+	android:name
+		ADDED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml:73:19-46
+uses-sdk
+INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] C:\Users\Simek\.android\build-cache\a416227cc13ae622977a0a9b11ebcfb1b9ba25ef\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Simek\.android\build-cache\c13ca51903fe8b7c7d9df7a7a016ca8c6d3e6e81\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.0] C:\Users\Simek\.android\build-cache\e0e978e6df3e79425a2fcaa28f59199962bdbe7a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Simek\.android\build-cache\a8d4641cf257031d37b9653847b915960bce38d8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Simek\.android\build-cache\03ba4d21d3ce42cf6d580771e124b72e3e9f0e9d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Simek\.android\build-cache\afdd80ebf88dcdc3698de09eabb57798f5adfd4d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Simek\.android\build-cache\fba53bf6021128c0206d3f2d03ea90e6c1b67f34\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Simek\.android\build-cache\ab903e6c8a6b772eb6006310f8bb624c1f8b0b3f\output\AndroidManifest.xml:17:5-43
+MERGED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.karumi:dexter:4.1.0] C:\Users\Simek\.android\build-cache\2c39cfdc840d216da176127b0f9fd2b6c62d937a\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\Simek\.android\build-cache\fe28e652ff1fd47f11986dce104bdc84f45152b3\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Simek\.android\build-cache\09def301f69b1a0dd6ca59a991630ffad8618b61\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Simek\.android\build-cache\991da8d61f0c53a7ec3eaa5b7cf0670e1f6f9755\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Simek\.android\build-cache\cef2e655c72c77772b587e5d9988bc71ceae6370\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Simek\.android\build-cache\3d61922e8059c975186687f0dd381a01ffd7bb4c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Simek\.android\build-cache\0da6dca7f348faf6fa976f9c0da74ee795bbc209\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Simek\.android\build-cache\db23f0fcaef1cd5d25980593f15cf459bbec720a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Simek\.android\build-cache\18314aabd828dd78cdeac1c18703f5ee52aed8b5\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Simek\.android\build-cache\45cee10f819b1452943f27992216c1d349f98f6c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Simek\.android\build-cache\e2de2c7be97148b1c2792e400ecd02faa0567d92\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Simek\.android\build-cache\72d106d8063cc4f6ff7a1043976300b347ff618e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Simek\.android\build-cache\ff7d2c68fb7ee667245548a234b59726c5981520\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] C:\Users\Simek\.android\build-cache\fe28e652ff1fd47f11986dce104bdc84f45152b3\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Simek\Documents\GitHub\FireHelper\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Simek\.android\build-cache\c13ca51903fe8b7c7d9df7a7a016ca8c6d3e6e81\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Simek\.android\build-cache\c13ca51903fe8b7c7d9df7a7a016ca8c6d3e6e81\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Simek\.android\build-cache\c13ca51903fe8b7c7d9df7a7a016ca8c6d3e6e81\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Simek\.android\build-cache\58083a88b29a5ddb00916a585a2c66197918d9bb\output\AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Simek\.android\build-cache\03ba4d21d3ce42cf6d580771e124b72e3e9f0e9d\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Simek\.android\build-cache\03ba4d21d3ce42cf6d580771e124b72e3e9f0e9d\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Simek\.android\build-cache\03ba4d21d3ce42cf6d580771e124b72e3e9f0e9d\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Simek\.android\build-cache\03ba4d21d3ce42cf6d580771e124b72e3e9f0e9d\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Simek\.android\build-cache\ab903e6c8a6b772eb6006310f8bb624c1f8b0b3f\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Simek\.android\build-cache\ab903e6c8a6b772eb6006310f8bb624c1f8b0b3f\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Simek\.android\build-cache\ab903e6c8a6b772eb6006310f8bb624c1f8b0b3f\output\AndroidManifest.xml:20:20-65
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:11:5-14:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:14:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:12:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:25:9-57
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:31:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:5.6.4] C:\Users\Simek\.android\build-cache\38fea9e02f746805ec777e74ac436e8f3facb509\output\AndroidManifest.xml:34:9-45
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:4.1.0] C:\Users\Simek\.android\build-cache\2c39cfdc840d216da176127b0f9fd2b6c62d937a\output\AndroidManifest.xml:27:9-30:56
+	android:launchMode
+		ADDED from [com.karumi:dexter:4.1.0] C:\Users\Simek\.android\build-cache\2c39cfdc840d216da176127b0f9fd2b6c62d937a\output\AndroidManifest.xml:29:13-48
+	android:theme
+		ADDED from [com.karumi:dexter:4.1.0] C:\Users\Simek\.android\build-cache\2c39cfdc840d216da176127b0f9fd2b6c62d937a\output\AndroidManifest.xml:30:13-53
+	android:name
+		ADDED from [com.karumi:dexter:4.1.0] C:\Users\Simek\.android\build-cache\2c39cfdc840d216da176127b0f9fd2b6c62d937a\output\AndroidManifest.xml:28:13-60

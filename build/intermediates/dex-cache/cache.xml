@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\3d61922e8059c975186687f0dd381a01ffd7bb4c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13a9d3cdb50ded4a817c621586b8a1fdd46bf72c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\e2de2c7be97148b1c2792e400ecd02faa0567d92\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f21d39d8711d65b90dca46b5432b2dff32f0d98a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\45cee10f819b1452943f27992216c1d349f98f6c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d65fc856fdfaf8936862a22c477d7573834dc184\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\991da8d61f0c53a7ec3eaa5b7cf0670e1f6f9755\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7188221d23a6ba56c4fa693db4755de04c9ddda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\db23f0fcaef1cd5d25980593f15cf459bbec720a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad78a20407e376ccbc09f5deb8019ee0c2350de3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\18314aabd828dd78cdeac1c18703f5ee52aed8b5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_571a8ad14bfaf6264dcf42f9b31557135bb3b518\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\cef2e655c72c77772b587e5d9988bc71ceae6370\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05e9aaa9265168ee2f48d83c38b617ad5d664cad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5ae45a7113e79bee1e2ae4ac72a2f5fdeb530242\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\ff7d2c68fb7ee667245548a234b59726c5981520\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4a973b917f2c9ec2c545a16b663d60caf6889231\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\09def301f69b1a0dd6ca59a991630ffad8618b61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_62cddd3f9c2de91849b4425965f5058c215e98ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="841414761be0bdaa19110d1c538a5c8a9ba63912">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9331eac1142c0c6261d6b764e68e67bb7231b4a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Simek\.android\build-cache\72d106d8063cc4f6ff7a1043976300b347ff618e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Simek\AndroidStudioProjects\FireHelper\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4827d877c8c9a98c65b61d17a5d9e7897f577ef7\classes.dex" />
+    </item>
+
+</items>

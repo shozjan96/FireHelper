@@ -1,0 +1,7 @@
+#Sun Apr 30 22:52:15 CEST 2017
+base.0=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5ae45a7113e79bee1e2ae4ac72a2f5fdeb530242
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9331eac1142c0c6261d6b764e68e67bb7231b4a1\\classes.dex
+base.1=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9331eac1142c0c6261d6b764e68e67bb7231b4a1
+file.0=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5ae45a7113e79bee1e2ae4ac72a2f5fdeb530242\\classes.dex
