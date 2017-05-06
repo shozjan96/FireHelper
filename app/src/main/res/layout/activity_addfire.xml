@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Koordinati"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Koordinati"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:textSize="18sp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y:"
+        android:textSize="18sp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/Xkordinat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="44dp"
+        android:text="41.35"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintLeft_toRightOf="@+id/textView5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/YKoordinat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="14dp"
+        android:text="10.25"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintLeft_toRightOf="@+id/textView7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Xkordinat" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/space"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/YKoordinat" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Širjenje ognja"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="DodajOgenj"
+        android:text="Vnesi požar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/SirjenjePocasi"
+        android:layout_width="84dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="0dp"
+        android:onClick="barvaj"
+        android:text="ToggleButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Počasi"
+        android:layout_marginLeft="62dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="49dp"
+        app:layout_constraintTop_toBottomOf="@+id/space" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Srednje"
+        app:layout_constraintLeft_toRightOf="@+id/textView11"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitro"
+        app:layout_constraintLeft_toRightOf="@+id/textView12"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="49dp"
+        app:layout_constraintTop_toBottomOf="@+id/space" />
+
+    <ToggleButton
+        android:id="@+id/SirjenjeSrednje"
+        android:layout_width="82dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-1dp"
+        android:onClick="barvaj"
+        android:text="ToggleButton"
+        app:layout_constraintLeft_toRightOf="@+id/SirjenjePocasi"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <ToggleButton
+        android:id="@+id/SirjenjeHitro"
+        android:layout_width="81dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:onClick="barvaj"
+        android:text="ToggleButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/SirjenjeSrednje"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="-7dp"
+        app:layout_constraintTop_toBottomOf="@+id/SirjenjeSrednje"
+        app:layout_constraintHorizontal_bias="0.501"
+        android:id="@+id/space2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vrsta požara"
+        android:textSize="18sp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintTop_toBottomOf="@+id/space2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Gozdni"
+        app:layout_constraintTop_toBottomOf="@+id/SirjenjePocasi"
+        app:layout_constraintRight_toLeftOf="@+id/textView15"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Travniški"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="Hišni"
+        app:layout_constraintTop_toBottomOf="@+id/SirjenjeHitro"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView15"
+        android:layout_marginLeft="8dp" />
+
+    <ToggleButton
+        android:id="@+id/VrstaGozd"
+        android:layout_width="84dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="5dp"
+        android:onClick="barvaj"
+        android:text="ToggleButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <ToggleButton
+        android:id="@+id/VrstaTravnik"
+        android:layout_width="77dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="8dp"
+        android:onClick="barvaj"
+        app:layout_constraintLeft_toRightOf="@+id/VrstaGozd"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ToggleButton
+        android:id="@+id/VrstaHisa"
+        android:layout_width="80dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="3dp"
+        android:onClick="barvaj"
+        android:text="ToggleButton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="324dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/space3"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="Vnetljive snovi v okolici?"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="@+id/VrstaTravnik"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:text="Da"
+        app:layout_constraintTop_toBottomOf="@+id/VrstaGozd"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView19"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ne"
+        android:layout_marginTop="91dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <ToggleButton
+        android:id="@+id/VnetljiveJa"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="-2dp"
+        android:onClick="barvaj"
+        android:text="ToggleButton"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <ToggleButton
+        android:id="@+id/VnetljiveNE"
+        android:layout_width="81dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="71dp"
+        android:onClick="barvaj"
+        android:text="ToggleButton"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintLeft_toRightOf="@+id/VnetljiveJa"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VrstaHisa" />
+
+</android.support.constraint.ConstraintLayout>
