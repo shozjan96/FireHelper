@@ -20,7 +20,7 @@ public class DataAll {
     private ArrayList<LokacijaGD>lokacijeDrustev;
    private ArrayList<LokacijaOgnja> ListaOgnja;
 
-
+    //Novo
     public DataAll() {
 
         this.upor = new Uporabnik("Simon", "Hozjan","shozjan","test");
