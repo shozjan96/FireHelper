@@ -29,8 +29,7 @@ public class ApplicationMy extends Application{
     int x;
     DataAll a;
     private Location mLastLocation;
-    int zacetek=1;
-    int drustva=1;
+
     private static final String DATA_MAP = "firedatamap";
     private static final String FILE_NAME = "fire.json";
 
@@ -42,7 +41,12 @@ public class ApplicationMy extends Application{
         x= 5;
         mLastLocation=null;
         if (!load())
+        {
             a = DataAll.scenarijA();
+            a.dodajUporabnike();
+            a.dodajDrustva();
+        }
+
     }
 
     public Location getLastLocation() {
@@ -79,24 +83,6 @@ public class ApplicationMy extends Application{
         a.dodajLokacijo(lo);
     }
 
-    public  void dodajUporabnike()
-    {
-        if(zacetek==1)
-        {
-            a.dodajUporabnike();
-            zacetek++;
-        }
-
-    }
-
-    public  void dodajDrustva()
-    {
-        if(drustva==1) {
-            a.dodajDrustva();
-            drustva++;
-        }
-
-    }
 
     public Uporabnik PreveriUporabnika(String UpIme,String passwd)
     {

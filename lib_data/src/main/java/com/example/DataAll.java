@@ -50,6 +50,9 @@ public class DataAll {
         uporabniki.add(up);
         Uporabnik up1=new Uporabnik("Mirko", "Hozjan","mirko","test");
         uporabniki.add(up1);
+        Uporabnik up2=new Uporabnik("Ziga", "Potocnik","test","test");
+        uporabniki.add(up2);
+
     }
 
     public void dodajDrustva()
@@ -59,10 +62,14 @@ public class DataAll {
         LokacijaGD nov1=new LokacijaGD(46.3418,16.2049,"Velika Polana");
         LokacijaGD nov2=new LokacijaGD(46.3344,15.3838,"Maribor");
         LokacijaGD nov3=new LokacijaGD(46.3936,16.9047,"Murska Sobota");
+        LokacijaGD nov4=new LokacijaGD(46.3427,15.4956,"Lenart");
+        LokacijaGD nov5=new LokacijaGD(46.2500,15.5200,"Ptuj");
         lokacijeDrustev.add(nov);
         lokacijeDrustev.add(nov1);
         lokacijeDrustev.add(nov2);
         lokacijeDrustev.add(nov3);
+        lokacijeDrustev.add(nov4);
+        lokacijeDrustev.add(nov5);
 
     }
 
@@ -110,7 +117,7 @@ public class DataAll {
         tmp = da.dodajLO(46.30,15.30);
         tmp = da.dodajLO(46.55,14.16);
         tmp = da.dodajLO(45.22,13.12);
-        for(int j=0;j<50;j++)
+        for(int j=0;j<2;j++)
         {
             tmp = da.dodajLO(46.30+j,15.30+j);
         }

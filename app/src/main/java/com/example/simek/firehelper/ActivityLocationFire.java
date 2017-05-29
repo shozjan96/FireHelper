@@ -165,10 +165,25 @@ public class ActivityLocationFire extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         YKooradinata.setText(String.valueOf(lo.getY()));
         XKoordinata.setText(String.valueOf(lo.getX()));
-        NajblizjeGD.setChecked(true);
+
+        if(lo.getLokacijaGD(0).isIzbrano())
+             NajblizjeGD.setChecked(true);
+        else
+            NajblizjeGD.setChecked(false);
+
         NajblizjeGD.setText(lo.getLokacijaGD(0).getImeGD());
 
+        if(lo.getLokacijaGD(1).isIzbrano())
+            DrugoGD.setChecked(true);
+        else
+            DrugoGD.setChecked(false);
         DrugoGD.setText(lo.getLokacijaGD(1).getImeGD());
+
+        if(lo.getLokacijaGD(2).isIzbrano())
+            TretjeGD.setChecked(true);
+        else
+            TretjeGD.setChecked(false);
+
         TretjeGD.setText(lo.getLokacijaGD(2).getImeGD());
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
         listaTagov.setAdapter(arrayAdapter);
@@ -187,6 +202,23 @@ public class ActivityLocationFire extends AppCompatActivity {
         if (stateNew) app.getAll().addLocation(l);
        // String x=XKoordinata.toString();
         //double koordX=Double.parseDouble(x);
+
+        if(NajblizjeGD.isChecked())
+            l.getLokacijaGD(0).setIzbrano(true);
+        else
+            l.getLokacijaGD(0).setIzbrano(false);
+
+        if(DrugoGD.isChecked())
+            l.getLokacijaGD(1).setIzbrano(true);
+        else
+            l.getLokacijaGD(1).setIzbrano(false);
+
+
+        if(TretjeGD.isChecked())
+            l.getLokacijaGD(2).setIzbrano(true);
+        else
+            l.getLokacijaGD(2).setIzbrano(false);
+
 
         app.save();
         //app.setX(2555);

@@ -1,7 +1,7 @@
-#Sun Apr 30 22:52:15 CEST 2017
-base.0=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5ae45a7113e79bee1e2ae4ac72a2f5fdeb530242
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9331eac1142c0c6261d6b764e68e67bb7231b4a1\\classes.dex
-base.1=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_9331eac1142c0c6261d6b764e68e67bb7231b4a1
-file.0=C\:\\Users\\Simek\\AndroidStudioProjects\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5ae45a7113e79bee1e2ae4ac72a2f5fdeb530242\\classes.dex
+#Tue May 23 09:53:08 CEST 2017
+base.0=C\:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fbf607c5a6ab3bddca81a42b8e305f00bdfa71dd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_136002a0df2b73f8a060d0492ff5e5c304f7ee05\\classes.dex
+base.1=C\:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_136002a0df2b73f8a060d0492ff5e5c304f7ee05
+file.0=C\:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fbf607c5a6ab3bddca81a42b8e305f00bdfa71dd\\classes.dex

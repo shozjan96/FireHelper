@@ -10,12 +10,21 @@ public class LokacijaGD {
     String idGD;
     double x, y;
     String imeGD;
+    boolean izbrano;
 
     public LokacijaGD(double x, double y, String imeGD) {
         this.idGD= UUID.randomUUID().toString().replaceAll("-", "");;
         this.x = x;
         this.y = y;
         this.imeGD = imeGD;
+    }
+
+    public boolean isIzbrano() {
+        return izbrano;
+    }
+
+    public void setIzbrano(boolean izbrano) {
+        this.izbrano = izbrano;
     }
 
     public double getX() {

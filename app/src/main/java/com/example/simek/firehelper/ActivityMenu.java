@@ -63,8 +63,8 @@ public class ActivityMenu extends AppCompatActivity {
         odjava=(Button) findViewById(R.id.Odjava);
         app=(ApplicationMy) getApplication();
 
-        app.dodajUporabnike();
-        app.dodajDrustva();
+        //app.dodajUporabnike();
+        //app.dodajDrustva();
     }
 
 
