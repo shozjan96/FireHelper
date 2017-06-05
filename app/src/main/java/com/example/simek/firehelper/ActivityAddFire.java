@@ -221,15 +221,20 @@ public class ActivityAddFire extends AppCompatActivity {
     {
         if(VnetljivoJa.isChecked())
         {
-
+            Vnetljivone.setChecked(false);
+            Vnetljivone.setBackgroundColor(Color.RED);
             VnetljivoJa.setBackgroundColor(Color.GRAY);
         }
         else
+        {
             VnetljivoJa.setBackgroundColor(Color.RED);
+        }
+
 
         if(Vnetljivone.isChecked())
         {
-
+            VnetljivoJa.setChecked(false);
+            VnetljivoJa.setBackgroundColor(Color.RED);
             Vnetljivone.setBackgroundColor(Color.GRAY);
         }
         else
@@ -237,7 +242,10 @@ public class ActivityAddFire extends AppCompatActivity {
 
         if(SirjenjePocasi.isChecked())
         {
-
+            SirjenjeSrednje.setChecked(false);
+            SirjenjeHitro.setChecked(false);
+            SirjenjeSrednje.setBackgroundColor(Color.RED);
+            SirjenjeHitro.setBackgroundColor(Color.RED);
             SirjenjePocasi.setBackgroundColor(Color.GRAY);
         }
         else
@@ -245,7 +253,10 @@ public class ActivityAddFire extends AppCompatActivity {
 
         if(SirjenjeSrednje.isChecked())
         {
-
+            SirjenjePocasi.setChecked(false);
+            SirjenjeHitro.setChecked(false);
+            SirjenjePocasi.setBackgroundColor(Color.RED);
+            SirjenjeHitro.setBackgroundColor(Color.RED);
             SirjenjeSrednje.setBackgroundColor(Color.GRAY);
         }
         else
@@ -253,7 +264,10 @@ public class ActivityAddFire extends AppCompatActivity {
 
         if(SirjenjeHitro.isChecked())
         {
-
+            SirjenjePocasi.setChecked(false);
+            SirjenjeSrednje.setChecked(false);
+            SirjenjePocasi.setBackgroundColor(Color.RED);
+            SirjenjeSrednje.setBackgroundColor(Color.RED);
             SirjenjeHitro.setBackgroundColor(Color.GRAY);
         }
         else
@@ -261,7 +275,10 @@ public class ActivityAddFire extends AppCompatActivity {
 
         if(VrstaGozd.isChecked())
         {
-
+            VrstaTravnik.setChecked(false);
+            VrstaHisa.setChecked(false);
+            VrstaTravnik.setBackgroundColor(Color.RED);
+            VrstaHisa.setBackgroundColor(Color.RED);
             VrstaGozd.setBackgroundColor(Color.GRAY);
         }
         else
@@ -269,7 +286,10 @@ public class ActivityAddFire extends AppCompatActivity {
 
         if(VrstaHisa.isChecked())
         {
-
+            VrstaTravnik.setChecked(false);
+            VrstaGozd.setChecked(false);
+            VrstaTravnik.setBackgroundColor(Color.RED);
+            VrstaGozd.setBackgroundColor(Color.RED);
             VrstaHisa.setBackgroundColor(Color.GRAY);
         }
         else
@@ -278,7 +298,10 @@ public class ActivityAddFire extends AppCompatActivity {
 
         if(VrstaTravnik.isChecked())
         {
-
+            VrstaHisa.setChecked(false);
+            VrstaGozd.setChecked(false);
+            VrstaHisa.setBackgroundColor(Color.RED);
+            VrstaGozd.setBackgroundColor(Color.RED);
             VrstaTravnik.setBackgroundColor(Color.GRAY);
         }
         else

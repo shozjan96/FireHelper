@@ -234,6 +234,9 @@ public class ActivityLocationFire extends AppCompatActivity {
         if(extras !=null)
         {
             l= app.getAll().getLocationByID(extras.getString(DataAll.LOKACIJA_ID));
+            if(l.getStatusOgnja())
+                l.setStatusOgnja(false);
+            else
             l.setStatusOgnja(true);
 
             if(l.getStatusOgnja()==true)

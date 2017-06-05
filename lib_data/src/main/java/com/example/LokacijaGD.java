@@ -31,7 +31,7 @@ public class LokacijaGD {
         return x;
     }
 
-    public void setX(long x) {
+    public void setX(double x) {
         this.x = x;
     }
 
@@ -39,7 +39,7 @@ public class LokacijaGD {
         return y;
     }
 
-    public void setY(long y) {
+    public void setY(double y) {
         this.y = y;
     }
 
@@ -55,13 +55,7 @@ public class LokacijaGD {
         this.idGD = idGD;
     }
 
-    public void setX(double x) {
-        this.x = x;
-    }
 
-    public void setY(double y) {
-        this.y = y;
-    }
 
     public void setImeGD(String imeGD) {
         this.imeGD = imeGD;

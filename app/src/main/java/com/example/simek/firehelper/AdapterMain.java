@@ -121,7 +121,7 @@ public class AdapterMain extends RecyclerView.Adapter<AdapterMain.ViewHolder> {
         else
         holder.slika.setImageResource(R.drawable.pogasen);
 
-        holder.txtHeader.setText("X:"+aktiven.getX()+" Y:"+aktiven.getY());
+        holder.txtHeader.setText(aktiven.getTagi().getPrvi(0)+","+aktiven.getTagi().getPrvi(1)+","+aktiven.getTagi().getPrvi(2));
 
 holder.row.setOnClickListener(new View.OnClickListener() {
     @Override
@@ -129,15 +129,7 @@ holder.row.setOnClickListener(new View.OnClickListener() {
         AdapterMain.startDView(aktiven.getIdOgenj(),ac);
     }
 });
-        if (position%2==1) {
-            holder.txtHeader.setTextColor(Color.BLUE);
-            holder.txtFooter.setTextColor(Color.BLUE);
-        }
 
-        if (position%2==0) {
-            holder.txtHeader.setTextColor(Color.BLACK);
-            holder.txtFooter.setTextColor(Color.BLACK);
-        }
         if (last==null) holder.distance.setText("N/A");
         else  holder.distance.setText(Util.getDistanceInString(ac.getLocation().getLatitude(), ac.getLocation().getLongitude(),aktiven.getX(),aktiven.getY()));
     }

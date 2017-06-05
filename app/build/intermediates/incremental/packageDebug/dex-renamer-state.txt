@@ -1,4 +1,4 @@
-#Tue May 23 09:53:08 CEST 2017
+#Mon Jun 05 16:45:38 CEST 2017
 base.0=C\:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fbf607c5a6ab3bddca81a42b8e305f00bdfa71dd
 renamed.1=classes.dex
 renamed.0=classes2.dex

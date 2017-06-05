@@ -108,12 +108,12 @@
         "source": "C:\\Users\\Simek\\.android\\build-cache\\fe28e652ff1fd47f11986dce104bdc84f45152b3\\output\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png"
     },
     {
-        "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "C:\\Users\\Simek\\.android\\build-cache\\09def301f69b1a0dd6ca59a991630ffad8618b61\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "C:\\Users\\Simek\\.android\\build-cache\\09def301f69b1a0dd6ca59a991630ffad8618b61\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Simek\\.android\\build-cache\\09def301f69b1a0dd6ca59a991630ffad8618b61\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",

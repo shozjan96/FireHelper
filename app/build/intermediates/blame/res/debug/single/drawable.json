@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Simek\\.android\\build-cache\\38fea9e02f746805ec777e74ac436e8f3facb509\\output\\res\\drawable\\marker_default.png"
     },
     {
-        "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navto_small.png",
-        "source": "C:\\Users\\Simek\\.android\\build-cache\\38fea9e02f746805ec777e74ac436e8f3facb509\\output\\res\\drawable\\navto_small.png"
-    },
-    {
         "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
         "source": "C:\\Users\\Simek\\.android\\build-cache\\03ba4d21d3ce42cf6d580771e124b72e3e9f0e9d\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navto_small.png",
+        "source": "C:\\Users\\Simek\\.android\\build-cache\\38fea9e02f746805ec777e74ac436e8f3facb509\\output\\res\\drawable\\navto_small.png"
     },
     {
         "merged": "C:\\Users\\Simek\\Documents\\GitHub\\FireHelper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
